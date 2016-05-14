@@ -1,5 +1,5 @@
 ﻿
-var button =document.querySelector(".button");
+var button =document.querySelector("#button");
 function add() {
     alert("だよ");
 };
