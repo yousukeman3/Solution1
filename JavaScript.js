@@ -1,6 +1,6 @@
 ﻿
 var button =document.querySelector("#button");
-function add() {
+button.addEventListener("click",
+function() {
     alert("だよ");
-};
-button.addEventListener("click",add());
+});
