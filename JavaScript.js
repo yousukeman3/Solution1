@@ -1,10 +1,10 @@
 ﻿var txt1 = document.querySelector("#inputS");
 var txt2 = document.querySelector("#inputF");
-var button =document.querySelector("#button");
+var button = document.querySelector("#button");
+var txt3 = document.querySelector("#inputP");
 button.addEventListener("click",
 function () {
-    txt1 = Number(txt1.value);
-    txt2 = Number(txt2.value);
-    var txt3 = txt1 + txt2;
-    document.write(txt3 + "");
+    a = Number(txt1.value);
+    b = Number(txt2.value);
+    txt3.value = a + b;
 });                                                                                                                                                                 
